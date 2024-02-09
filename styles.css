@@ -1,0 +1,18 @@
+
+body {
+    background-color: rgb(81, 172, 180);
+    background-image: url("/images/JadeMountainResort.jpg");
+
+
+}
+
+h1 {
+    color: rgb(232, 108, 63);
+    text-align: center;
+}
+
+p { 
+    color: black;
+    text-align: center;
+    margin-right: 40px;
+}
