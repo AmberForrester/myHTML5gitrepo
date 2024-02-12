@@ -266,8 +266,38 @@ The  div  element - defines a section in an HTML document.</p>
 
 </body>
 <br>
+
+<h3>Use of The Class Attribute in JavaScript</h3>
+
+<p>JavaScript can access elements with the a specific class name with the getElementsByClassName() method:</p>
+
+<p>Click the button to hide all elements with class name "city":</p>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h2 class="place">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="place">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="place">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("place");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
 <br>
 <br>
+<br>
+
+
 
 <h3>HTML id Attribute</h3>
 
@@ -283,7 +313,7 @@ The  div  element - defines a section in an HTML document.</p>
      - followed by an id name<br>
     - define the CSS properties within the curly braces {} </p>
 
-<p><i>Examples shown below -</i></p>
+<p><i>Examples Shown Below -</i></p>
 
 <p><i>Example #1: Using an h1 element that points to the id name "myHeader". Styling that h1 element according to the #myHeader style definition in the head section:</i></p>
 
@@ -340,12 +370,108 @@ The  div  element - defines a section in an HTML document.</p>
 <br>
 <br>
 
+<h3>HTML Bookmarks with id and Links</h3>
 
+<ol>
+    <li>Allow readers to jump to specific parts of a webpage</li>
+    <li>Useful if your page is very long</li>
+</ol>
 
+<p><i>How to use a bookmark:</i><br>
+    - create the bookmark first<br>
+    - add a link to it<br>
+    - with link created, the page will scroll to the location of the bookmark
+</p>
 
+<p><i>Example Shown Below -</i></p>
+ 
+<p><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
 
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
 
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
 
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 18</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 19</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 20</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 21</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 22</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 23</h2>
+<p>This chapter explains ba bla bla</p>
+<br>
+
+<h3>Use of The id Attribute in JavaScript</h3>
+
+<p>JavaScript can access elements with the a specific id name with the getElementsById() method:</p>
+
+<p>Click the button to switch the text below from Hello World! to Have a nice day!:</p>
+
+<h1 id="myHeader1">Hello World!</h1>
+<button onclick="displayResult()">Change text</button>
+
+<script>
+function displayResult() {
+  document.getElementById("myHeader1").innerHTML = "Have a nice day!";
+}
+</script>
 
 </body>
 </html>
