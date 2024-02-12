@@ -200,3 +200,24 @@ p {
 .table9 th , .table9 td {
   background-color: white;
 }
+
+
+.table10 {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+.table10 th, .table10 td {
+  border: 1px solid #000000;
+  padding: 2px;
+  text-align: left;
+}
+
+.table10 th { 
+  text-align: center;
+}
+
+.table10 th , .table10 td {
+  background-color: white;
+}
