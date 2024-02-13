@@ -1,0 +1,32 @@
+header {
+    text-align: center; color: white;
+    padding: 10px;
+    background-color: #79a3b1;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fefbea;
+}
+
+footer {
+    text-align: center; color: white;
+    padding: 10px;
+    background-color: #79a3b1;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif; color: #a25d86;
+}
+
+section {
+    margin: 20px;
+    fill: solid;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+}
+
+#title, #ing, #inst {
+    background: white;
+    padding:15px;
+}
