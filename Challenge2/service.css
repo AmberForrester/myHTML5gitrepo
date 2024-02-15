@@ -14,7 +14,7 @@ body, html {
   background-image: url("/Challenge2/images/IMG_5975.jpg");
 
   /* Set a specific height */
-  height: 50%;
+  height: 40%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -49,6 +49,10 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+  background-color: #0056b3;
+}
+
 
 footer {
     text-align: center; color: white; 
@@ -56,27 +60,27 @@ footer {
     padding: 10px;
 }
 
-section {
-    margin: 20px;
-    fill: solid;
-    border-radius: 2px;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
-    display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: fit-content;
-    
-    
+.feature {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba (0, 0, 0, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#ft1, #ft2 {
-    background: white;
-    padding:20px;
-    text-align: center;
-    width: fit-content;
-    
-    
+.feature:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba (0, 0, 0, 0.5);
 }
+
+.features {
+  display:flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
 
 
 
