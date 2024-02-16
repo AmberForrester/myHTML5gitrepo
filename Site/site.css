@@ -43,5 +43,11 @@ h2 {
   margin: 4px;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 
 
