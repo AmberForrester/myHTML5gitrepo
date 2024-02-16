@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center; color: #c599de;
+}
+
+
+header {
+    background-image: url(/Site/images/devcom2.png);
+    color: black;
+    background-color: #c599de;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    padding: 50px 20px;
+}
+
+header h1, header p {
+  text-align: center;
+  padding-left: 700px;
+}
+
+footer {
+  background-color: #c599de;
+  text-align: center; color: black;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  text-align: left;
+}
+
+.browser h2, p {
+  margin: 4px;
+}
+
+
+
