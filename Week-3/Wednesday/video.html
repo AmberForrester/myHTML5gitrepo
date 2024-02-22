@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Video</title>
+
+    <link rel="stylesheet" href="video.css">
+    <link rel="icon" href="/Week-3/Wednesday/images/video.ico">
+
+    
+</head>
+<body>
+
+    <h1>The <i>Freedom</i> To Choose</h1>
+    <p>Just as selecting a destination for travel opens up a world of exploration and adventure.<br>
+        <br>
+        Embracing positivity allows us to journey towards a life filled with happiness, purpose, and limitless potential.
+        <br>
+        <br>
+         Both choices grant us the freedom to chart our own course, embracing new experiences.<br>
+         <br>
+         Shaping our own unique path towards a brighter and more fulfilling future.</p>
+         <br>
+
+    <div class="video-container">
+
+        <video id="video1" width="420">
+            <source src="/Week-3/Wednesday/videos/plane_-_32975 (360p).mp4" type="video/mp4">
+            <source src="mov_bbb.ogg" type="video/ogg">
+  
+          </video>
+
+    </div>
+         
+    <br>
+
+    <div style="text-align:center"> 
+
+        <img src="/Week-3/Wednesday/images/play-pause.png" onclick="playPause()" alt="Play/Pause" width="30" height="30">
+
+        <img src="/Week-3/Wednesday/images/stop.png" onclick="stop()" alt="stop" width="30" height="30">
+
+        <img src="/Week-3/Wednesday/images/expand.png" onclick="makeBig()" alt="makeBig" width="30" height="30">
+
+        <img src="/Week-3/Wednesday/images/shrink.png" onclick="makeSmall()" alt="makeSmall" width="30" height="30">
+
+        <img src="/Week-3/Wednesday/images/normal.png" onclick="makeNormal()" alt="makeNormal" width="30" height="30">
+
+        <br><br>
+        
+      </div> 
+
+            </button>
+      
+      <script> 
+      var myVideo = document.getElementById("video1"); 
+      
+      function playPause() { 
+        if (myVideo.paused) 
+          myVideo.play(); 
+        else 
+          myVideo.pause(); 
+      } 
+
+      function stop() { 
+        var myVideo = document.getElementById("video1");
+        myVideo.pause();
+        }
+      
+      function makeBig() { 
+          myVideo.width = 560; 
+      } 
+      
+      function makeSmall() { 
+          myVideo.width = 320; 
+      } 
+      
+      function makeNormal() { 
+          myVideo.width = 420; 
+      } 
+      </script> 
+      
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p>Video courtesy of <a href="https://pixabay.com/videos/plane-sky-airplane-fly-flight-32975/" target="_blank">wserrano on Pixabay</a>.</p>
+
+
+</body>
+</html>
