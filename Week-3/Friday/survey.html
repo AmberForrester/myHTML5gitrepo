@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Survey Form</title>
+
+    <link rel="stylesheet" href="/Week-3/Friday/survey.css">
+
+</head>
+<body>
+
+<h1>Feedback Survey Form</h1>
+<br>
+
+<form>
+
+    <div>
+
+        <label for="first name">Name:</label> 
+        <input type="text" name="first name" id="first name" required>
+
+    </div>
+<br>
+    <div>
+
+        <label for="last name">Email:</label> 
+        <input type="text"  name="last name" id="last name" required>
+
+    </div>
+<br>
+    <div>
+
+        <label for="email">Age:</label> 
+        <input type="email"  name="email" id="email" required>
+
+    </div>
+<br>
+
+<form action="/action_page.php">
+    <label for="question3">Type of Feedback:</label>
+    <br>
+    <br>
+    <select id="question3"  name="question3list" form="question3form">
+        <option value="true">Positive</option>
+        <option value="false">Negative</option>
+    </select>
+</form>
+
+<form action="/action_page.php">
+    <h2>Services Used:</h2>
+        <input type="checkbox" id="span" name="span" value="span">
+        <label for="span">Service 1</label><br>
+        <input type="checkbox" id="table" name="table" value="table">
+        <label for="table">Service 2</label><br>
+        <input type="checkbox" id="article" name="article" value="article">
+        <label for="article">Service 3</label><br>        
+    </form>
+
+    <br>
+
+<form action="/action_page.php">
+    <p>Additional Comments:</p><textarea id="question1" name="question1" rows="8" cols="72"></textarea>
+    <br><br>
+    </form>
+
+
+
+
+
+
+
+
+
+    <div class="button">
+
+        <button type="submit">Submit Feedback</button>
+    
+    </div>
+
+
+</form>
+
+    
+</body>
+</html>
