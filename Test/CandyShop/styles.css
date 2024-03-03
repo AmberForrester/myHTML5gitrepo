@@ -1,0 +1,79 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.img1 {
+    background: url(/Test/CandyShop/images/background1.png);
+    min-height: 88%;
+    background-attachment: fixed;
+}
+
+.img2 {
+    background: url(/Test/CandyShop/images/background3.png);
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.img3 {
+    background: url(/Test/CandyShop/images/background3.png);
+    min-height: 100%;
+    background-attachment: fixed;
+}
+
+.img1, .img2, .img3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 58%;
+}
+
+.col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 250px;
+    box-sizing: border-box;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-4 img {
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+    color: white;
+}
+
+.choco {
+    padding-top: 1.8%;
+}
+
+
+
+
+
+
+
+

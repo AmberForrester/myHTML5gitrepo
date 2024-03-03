@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/webpage-background.png');
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    
+}
+
+header {
+    background-color: 0;
+    background-size: 100%;
+    background-position: top;
+    padding: 10px;
+    text-align: center;
+    color: #000000;
+}
+
+nav {
+    background-color: 0;
+    color: #3d2525;
+    padding: 10px;
+    text-align: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+}
+
+nav a {
+    color: #2e2222;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+
+.container {
+     flex: 1;
+           
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: bottom;
+            max-height: 100vh;
+            padding: 60px;
+            max-width: 960px;
+            margin: auto;
+            position: fixed;
+            bottom: 0;
+        }
+
+        .product {
+            width: 20%;
+            margin-bottom: 20px;
+            padding: 1px;
+            background-color: 0;
+            border: 1px solid 0;
+            text-align: center;
+            transition: transform 0.3s;
+            color: #000000;
+        }
+
+        .product img {
+            max-width: 60%;
+            height: auto;
+        }
+
+        .product:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .product h2 {
+            margin-top: 10px;
+            color: #e7ce7b;
+        }
+
+        .product p {
+            margin: 5px 0;
+        }
+
+        .product button {
+            background-color: #fff09b;
+            color: rgb(31, 30, 71);
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .product button:hover {
+            background-color: #c58052;
+        }
+

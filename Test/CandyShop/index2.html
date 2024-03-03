@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="icon" href="/images/logo.png">
+    <link rel="stylesheet" href="/shop.css">
+    <link rel="stylesheet" href="/table.html">
+
+    <script src="https://kit.fontawesome.com/d8b9dce6b7.js" crossorigin="anonymous"></script>
+    
+    <style>
+         p{font-size: 20px;
+        background-color: rgb(247, 231, 209);
+    border: 2px solid rgb(70, 32, 32);
+         }
+    
+    .container {
+        position: fixed;
+        top: 72%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        max-width: 100%; /* Adjust as needed */
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0);
+    }
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">About Us</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    
+
+        <div class="container">
+            <div class="product">
+                <img src="images/1708480014473.png" alt="Chocolate">
+                <h2>Ai-Chocolate</h2>
+                <button>Pick Me!</button>
+            </div>
+    
+    
+            <div class="product">
+                <img src="images/1708479580348.png" alt="Cotton">
+                <h2>CC-CB</h2>
+                <button onclick="redirectToPage()">No Pick Me!</button></button>
+                <script>
+                    function redirectToPage() {
+                        window.location.href = "http://127.0.0.1:5500/checkout.html";
+                    }
+                </script>
+            </div>
+    
+            <div class="product">
+                <img src="images/1708478629163.png" alt="Ai-Soda">
+                <h2>Ai-Soda</h2>
+                <button>No Me!</button>
+            </div>
+            
+            <div class="product">
+                <img src="images/1708476988412.png" alt="Ai-Candy">
+                    <h2>Ai-Candy</h2>
+                    <button>oo oo pick Me!</button>
+            </div>
+            </div>
+    
+   
+
+
+
+            
+
+</body>
+</html>
