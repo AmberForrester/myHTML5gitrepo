@@ -47,6 +47,27 @@ nav {
   padding: 10px;
 }
 
+nav.navbar {
+  background-color: #ff8500 !important;
+  color: #fff !important;
+  padding: 10px;
+}
+
+nav.navbar a.nav-link {
+  color: #fff !important;
+}
+
+nav.navbar form button.btn-outline-success {
+  border-color: #fff; 
+  color: #fff; 
+}
+
+
+nav.navbar form button.btn-outline-success:hover {
+  background-color: #fff;
+  color: #ff8500;
+}
+
 nav ul {
   list-style-type: none;
 }
@@ -59,6 +80,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+
 
 footer {
   background-color: #333;
@@ -73,7 +95,7 @@ footer p a {
 }
 
 #hero {
-  background-image: url("/job-zila/images/mainPic.jpg");
+  background-image: url("/SOLVE/images/mainPic.jpg");
   background-size: cover;
 
   display: flex;
@@ -86,6 +108,11 @@ footer p a {
 #hero-section {
   text-align: center;
   margin-top: 100px;
+}
+
+#hero-section h2 {
+  color: #ff8500 !important;
+  font-weight: bolder;
 }
 #privacy-section {
   text-align: left;

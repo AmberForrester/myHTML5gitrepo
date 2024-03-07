@@ -30,5 +30,163 @@
 }
 
 ::-webkit-scrollbar {
-    width: .5rem;
+    width: 1rem;
+    height: .5rem;
 }
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--light-bg);
+}
+
+section {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: var(--white);
+    background-color: var(--main-color);
+    border-radius: .5rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: var(--black);
+}
+
+.header {
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+}
+
+.header .flex {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#menu-btn {
+    font-size: 2.7rem;
+    color: var(--black);
+    cursor: pointer;
+    display: none;
+
+}
+
+.header .flex .logo {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.header .flex .logo i {
+    margin-right: .5rem;
+    color: var(--light-color);
+}
+
+.header .flex .navbar a {
+    display: inline-block;
+    padding: 1rem 1.5rem;
+    font-size: 1.6rem;
+    color: var(--light-color);
+    border-radius: .5rem;
+    text-transform: capitalize;
+}
+
+.header .flex .navbar a:hover {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:768px){
+    
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .flex .navbar {
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        border-top: var(--border);
+        background-color: var(--white);
+        padding: 1rem .5rem;
+    }
+
+    .header .flex .navbar a {
+        display: block;
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width:450px){
+    
+    html {
+        font-size: 50%;
+    }
+}
+
+
+
+
+
+
+
