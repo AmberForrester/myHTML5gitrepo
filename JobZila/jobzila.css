@@ -143,7 +143,46 @@ section {
 
 
 
+.footer .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem );
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+.footer .grid .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.footer .grid .box a {
+    display: block;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    color: var(--light-color);
+}
+
+.footer .grid .box a i{
+    color: var(--main-color);
+    margin-right: .8rem;
+    transition: .2s linear;
+}
+
+.footer .grid .box a:hover i{
+    margin-right: 2rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 3rem 2rem;
+    background-color: var(--white);
+    font-size: 2rem;
+    color: var(--light-color);
+}
 
 
 
@@ -169,6 +208,12 @@ section {
         border-top: var(--border);
         background-color: var(--white);
         padding: 1rem .5rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .2s linear;
+    }
+
+    .header .flex .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     }
 
     .header .flex .navbar a {
