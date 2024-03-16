@@ -17,14 +17,14 @@
 
             <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
-            <a href="Home.html" class="logo"><i class="fas fa-briefcase"></i>JobZila.</a>
+            <a href="/JobZila/Home.html" class="logo"><i class="fas fa-briefcase"></i>JobZila.</a>
 
             <nav class="navbar">
-                <a href="Home.html">Home</a>
-                <a href="#">About</a>
-                <a href="#">Job Search</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Account</a>
+                <a href="/JobZila/Home.html">Home</a>
+                <a href="/JobZila/About.html">About</a>
+                <a href="/JobZila/JobListings.html">All Jobs</a>
+                <a href="/JobZila/Contact.html">Contact Us</a>
+                <a href="/JobZila/Login.html">Account</a>
             </nav>
 
             <a href="#" class="btn" style="margin-top: 0;">Post Job</a>
@@ -35,9 +35,307 @@
 
     </header>
 
-    
+<div class="home-container">
+
+    <section class="home">
+
+        <form action="" method="post">
+            <h3>Find Your Next Job</h3>
+
+            <p>Job Title<span>*</span></p>
+
+            <input type="text" name="title" placeholder="keyword, category, or company" required maxlength="20" class="input">
+
+            <p>Job Location</p>
+            <input type="text" name="location" placeholder="city, province, or country" required maxlength="50" class="input">
+
+            <input type="submit" value="search job" name="search" class="btn">
+        </form>
+    </section>
+</div>    
+
+<section class="category">
+
+    <h1 class="heading">Job Categories</h1>
+
+    <div class="box-container">
+
+        <a href="#" class="box">
+
+            <i class="fas fa-code"></i>
+            <div>
+                <h3>Web Development</h3>
+                <span>4444 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-pen"></i>
+            <div>
+                <h3>Designer</h3>
+                <span>888 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-headset"></i>
+            <div>
+                <h3>Service</h3>
+                <span>333 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-bullhorn"></i>
+            <div>
+                <h3>Marketing</h3>
+                <span>1111 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-chalkboard-user"></i>
+            <div>
+                <h3>Teacher</h3>
+                <span>777 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-wrench"></i>
+            <div>
+                <h3>Engineer</h3>
+                <span>555 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-hand-holding-dollar"></i>
+            <div>
+                <h3>Finance</h3>
+                <span>1000 Jobs</span>
+            </div>
+        </a>
+
+        <a href="#" class="box">
+
+            <i class="fas fa-person-digging"></i>
+            <div>
+                <h3>Labour</h3>
+                <span>2222 Jobs</span>
+            </div>
+        </a>
+
+    </div>
+</section>
+
+<section class="jobs-container">
+
+    <h1 class="heading">Latest Jobs</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="company">
+
+                    <img src="/JobZila/images/HTML5-logo.png" alt="">
+                    <div>
+
+                        <h3>IT infosys co.</h3>
+                        <p>2 days ago</p>
+
+                    </div>
+            </div>
+                
+                <h3 class="job-title">Senior Web Developer</h3>
+                
+                <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Markham, Ontario</span></p>
+
+                <div class="tags">
+                    <p><i class="fas fa-comments-dollar"></i> <span></span> 160k - 230k per year</p>
+
+                    <p><i class="fas fa-briefcase"></i><span> Full-Time</span></p>
+
+                    <p><i class="fas fa-clock"></i><span> Hybrid Position</span></p>
+
+                </div>
+
+                    <div class="flex-btn">
+                        <a href="/JobZila/ViewJob.html" class="btn">View Details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+
+                    <img src="/JobZila/images/CSS-logo.png" alt="">
+                    <div>
+
+                        <h3>All Media Ltd.</h3>
+                        <p>2 days ago</p>
+
+                    </div>
+            </div>
+                
+                <h3 class="job-title">Qualified Developer</h3>
+                
+                <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Brampton, Ontario</span></p>
+
+                <div class="tags">
+                    <p><i class="fas fa-comments-dollar"></i> <span></span> 130k - 160k per year</p>
+
+                    <p><i class="fas fa-briefcase"></i><span> Full-Time</span></p>
+
+                    <p><i class="fas fa-clock"></i><span> Remote Position</span></p>
+
+                </div>
+
+                    <div class="flex-btn">
+                        <a href="/JobZila/ViewJob.html" class="btn">View Details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+
+                    <img src="/JobZila/images/JS-logo.png" alt="">
+                    <div>
+
+                        <h3>Software Solutions</h3>
+                        <p>Today</p>
+
+                    </div>
+            </div>
+                
+                <h3 class="job-title">JavaScript Developer</h3>
+                
+                <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Toronto, Ontario</span></p>
+
+                <div class="tags">
+                    <p><i class="fas fa-comments-dollar"></i> <span></span> 65k - 81k per year</p>
+
+                    <p><i class="fas fa-briefcase"></i><span> Full-Time</span></p>
+
+                    <p><i class="fas fa-clock"></i><span> Hybrid Position</span></p>
+
+                </div>
+
+                    <div class="flex-btn">
+                        <a href="/JobZila/ViewJob.html" class="btn">View Details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+
+                    <img src="/JobZila/images/sass-image.png" alt="">
+                    <div>
+
+                        <h3>IT World</h3>
+                        <p>8 Days Ago</p>
+
+                    </div>
+            </div>
+                
+                <h3 class="job-title">Junior Front-End Developer</h3>
+                
+                <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Vancouver, British Columbia</span></p>
+
+                <div class="tags">
+                    <p><i class="fas fa-comments-dollar"></i> <span></span> 110k - 130k per year</p>
+
+                    <p><i class="fas fa-briefcase"></i><span> Full-Time</span></p>
+
+                    <p><i class="fas fa-clock"></i><span> Remote Position</span></p>
+
+                </div>
+
+                    <div class="flex-btn">
+                        <a href="/JobZila/ViewJob.html" class="btn">View Details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+
+                    <img src="/JobZila/images/jquery-logo.png" alt="">
+                    <div>
+
+                        <h3>Info Statics</h3>
+                        <p>4 Days Ago</p>
+
+                    </div>
+            </div>
+                
+                <h3 class="job-title">Jquery Developer</h3>
+                
+                <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Waterloo, Ontario</span></p>
+
+                <div class="tags">
+                    <p><i class="fas fa-comments-dollar"></i> <span></span> 86k - 110k per year</p>
+
+                    <p><i class="fas fa-briefcase"></i><span> Full-Time</span></p>
+
+                    <p><i class="fas fa-clock"></i><span> Remote Position</span></p>
+
+                </div>
+
+                    <div class="flex-btn">
+                        <a href="/JobZila/ViewJob.html" class="btn">View Details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+        </div>
+
+        <div class="box">
+            <div class="company">
+
+                    <img src="/JobZila/images/PHP-logo.png" alt="">
+                    <div>
+
+                        <h3>ISMP Canada</h3>
+                        <p>4 Days Ago</p>
+
+                    </div>
+            </div>
+                
+                <h3 class="job-title">PHP Developer</h3>
+                
+                <p class="location"><i class="fas fa-map-marker-alt"></i> <span>North York, Ontario</span></p>
+
+                <div class="tags">
+                    <p><i class="fas fa-comments-dollar"></i> <span></span> 120k - 153k per year</p>
+
+                    <p><i class="fas fa-briefcase"></i><span> Part-Time</span></p>
+
+                    <p><i class="fas fa-clock"></i><span> Remote Position</span></p>
+
+                </div>
+
+                    <div class="flex-btn">
+                        <a href="/JobZila/ViewJob.html" class="btn">View Details</a>
+                        <button type="submit" class="far fa-heart" name="save"></button>
+                    </div>
+        </div>
+        
 
 
+    </div>
+
+        <div style="text-align: center; margin-top: 2rem;">
+            <a href="/JobZila/JobListings.html" class="btn">View All</a>
+        </div>
+
+</section>
 
 
 
@@ -59,9 +357,9 @@
         <div class="box">
             <h3>Quick Links</h3>
             <a href="/JobZila/Home.html"><i class="fas fa-angle-right"></i>Home</a>
-            <a href="#"><i class="fas fa-angle-right"></i>About</a>
-            <a href="#"><i class="fas fa-angle-right"></i>Job Listings</a>
-            <a href="#"><i class="fas fa-angle-right"></i>Contact Us</a>
+            <a href="/JobZila/About.html"><i class="fas fa-angle-right"></i>About</a>
+            <a href="/JobZila/JobListings.html"><i class="fas fa-angle-right"></i>Job Listings</a>
+            <a href="/JobZila/Contact.html"><i class="fas fa-angle-right"></i>Contact Us</a>
             <a href="#"><i class="fas fa-angle-right"></i>Job Search</a>
         </div>
 
@@ -90,6 +388,13 @@
     </div>
 
 </footer>
+
+
+
+
+
+
+
 
 
 
