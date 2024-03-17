@@ -862,22 +862,6 @@ section {
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem );
