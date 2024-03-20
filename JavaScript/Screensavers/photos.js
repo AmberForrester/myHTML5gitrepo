@@ -1,4 +1,4 @@
-const refreshRate = 5000;
+const refreshRate = 8000;
 
 setInterval(function () {
   window.location.reload();
@@ -50,12 +50,10 @@ function showTime() {
     " " +
     yy +
     " " +
-    hh +
+    (hh % 12 || 12) +
     ":" +
     min +
-    ":" +
-    s +
-    " " + 
+    "  " +
     greeting;
 
   document.getElementById("clock").innerText = actualTime;
